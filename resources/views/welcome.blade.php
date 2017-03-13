@@ -16,7 +16,6 @@
                 width: 100%;
                 display: table;
                 font-weight: 100;
-                font-family: 'Lato';
             }
 
             .container {
@@ -38,7 +37,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">你好，ruike</div>
             </div>
         </div>
     </body>
