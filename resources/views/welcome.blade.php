@@ -37,7 +37,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">你好，ruike2</div>
+                <div class="title">你好，ruike3</div>
                 <p>测试页面</p>
             </div>
         </div>
