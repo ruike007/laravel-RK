@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+/**
+ * github 推送路由
+ */
+
+Route::post('deploy','DeploymentController@deploy');
