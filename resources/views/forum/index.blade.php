@@ -4,7 +4,7 @@
     <div class="jumbotron">
         <div class="container">
             <h1>欢迎来到Laravel 社区
-                <a class="btn btn-primary btn-lg pull-right" href="#" role="button">Learn more »</a>
+                <a class="btn btn-primary btn-lg pull-right" href="#" role="button">发布新的帖子</a>
             </h1>
         </div>
     </div>

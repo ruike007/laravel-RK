@@ -2,9 +2,10 @@
 <html lang = "en">
 
 <head>
-        <meta charset = "utf-8">
-        <title>Laravel App</title>
-        <link rel="stylesheet" href="/css/bootstrap.css">
+    <meta charset = "utf-8">
+    <title>Laravel App</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
