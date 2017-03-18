@@ -147,6 +147,8 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Collective\Html\HtmlServiceProvider::class, //Form
+        'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider', // Laravel IDE helper
 
         /*
          * Application Service Providers...
@@ -201,6 +203,9 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'Form'      => Collective\Html\FormFacade::class,//Form类
+        'Html'      => Collective\Html\HtmlFacade::class,//Form类
+
 
     ],
 

@@ -3,8 +3,6 @@
     <head>
         <title>Laravel</title>
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-
         <style>
             html, body {
                 height: 100%;
@@ -35,11 +33,10 @@
         </style>
     </head>
     <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">你好，ruike5</div>
-                <p>测试sd1</p>
-            </div>
-        </div>
+        {!! Form::open(['url'=>'/articles']) !!}
+            {!! Form::label('名称',null,['id'=>'name']) !!}
+            {!! Form::text('name') !!}
+            {!! Form::submit('提交',['class'=>"btn btn-primary"]) !!}
+        {!! Form::close() !!}
     </body>
 </html>
