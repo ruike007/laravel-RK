@@ -12,7 +12,7 @@
 */
 
 Route::get('/', 'PostsController@index');
-
+Route::resource('discussions','PostsController');
 /**
  * github 推送路由
  */
