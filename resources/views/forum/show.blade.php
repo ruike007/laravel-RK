@@ -11,9 +11,8 @@
                 </div>
                 <div class="media-body">
                     <h4 class="media-heading">{{ $discussion->title }}</h4>
-                    {{$discussion->user->name}}
+                    {{$discussion->user->name}}  <a class="bun btn-primary btn-lg pull-right" href="#" role="button">修改帖子</a>
                 </div>
-                <a class="bun btn-primary btn-lg pull-right" href="#" role="button">修改帖子</a>
             </div>
 
         </div>
@@ -22,7 +21,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-9" role="main">
-                
+                {{ $discussion ->body }}
             </div>
         </div>
     </div>

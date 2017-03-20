@@ -13,6 +13,9 @@
 
 Route::get('/', 'PostsController@index');
 Route::resource('discussions','PostsController');
+
+Route::get('/user/register','UserController@register');
+Route::post('/user/register','UserController@store');
 /**
  * github 推送路由
  */
